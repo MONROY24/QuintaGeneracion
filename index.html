@@ -3,89 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quinta Generación de Computadoras</title>
-  <!-- TailwindCSS -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- ScrollReveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Sitio en Construcción</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .mensaje-superior {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+
+    .mensaje-inferior {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 20px;
+      line-height: 1.3;
+    }
+
+    .imagen-constructor {
+      width: 150px;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
 </head>
-
-<body class="bg-gray-50 text-gray-800">
-
-  <!-- Header -->
-  <header class="bg-indigo-700 shadow-lg">
-    <div class="max-w-7xl mx-auto p-4 flex items-center space-x-4">
-      <!-- Logo -->
-      <img src="https://images.seeklogo.com/logo-png/26/2/universidad-de-el-salvador-logo-png_seeklogo-269405.png" alt="Logo UES" class="h-12">
-      <h1 class="text-2xl font-bold text-white">Quinta Generación de Computadoras</h1>
-    </div>
-  </header>
-
-  <main class="mt-10">
-    <section id="introduccion" class="max-w-6xl mx-auto p-6">
-      <h2 class="text-3xl font-bold mb-4 text-indigo-700">Introducción</h2>
-      <p class="text-lg leading-relaxed">
-        La quinta generación de computadoras representa un avance trascendental en el campo de la informática, enfocándose principalmente en la implementación de la inteligencia artificial. A diferencia de generaciones anteriores que se centraban en la velocidad de procesamiento y el tamaño de los dispositivos, esta generación buscó que las computadoras pudieran interpretar el lenguaje humano, aprender de la experiencia y tomar decisiones de manera autónoma. El proyecto pionero fue el "Fifth Generation Computer Systems" de Japón, que marcó un hito en el desarrollo tecnológico a partir de 1982.
-      </p>
-    </section>
-
-    <section id="caracteristicas" class="max-w-6xl mx-auto p-6 mt-12">
-      <h2 class="text-3xl font-bold mb-4 text-indigo-700">Características Principales</h2>
-      <ul class="list-disc pl-8 text-lg leading-relaxed space-y-3">
-        <li>Integración de inteligencia artificial para emular capacidades humanas.</li>
-        <li>Procesamiento de lenguaje natural, facilitando la comunicación hombre-máquina.</li>
-        <li>Uso de arquitecturas de multiprocesamiento y computación paralela.</li>
-        <li>Capacidad de aprendizaje automático (machine learning) y redes neuronales.</li>
-        <li>Desarrollo de sistemas expertos en áreas como medicina, ingeniería y derecho.</li>
-        <li>Implementación de bases de datos avanzadas para el manejo de grandes volúmenes de información.</li>
-      </ul>
-    </section>
-
-    <section id="impacto" class="max-w-6xl mx-auto p-6 mt-12">
-      <h2 class="text-3xl font-bold mb-4 text-indigo-700">Impacto y Legado</h2>
-      <p class="text-lg leading-relaxed mb-6">
-        Aunque los objetivos originales de la quinta generación no se alcanzaron completamente, su influencia es evidente en la tecnología actual. El auge de la inteligencia artificial, el procesamiento de lenguaje natural, el reconocimiento facial y los sistemas inteligentes son fruto de las investigaciones iniciadas en esta época. La visión de computadoras que no solo procesan datos, sino que también razonan, se ha materializado en asistentes virtuales, automóviles autónomos, chatbots y sistemas de diagnóstico médico basados en IA.
-      </p>
-      <p class="text-lg leading-relaxed">
-        Actualmente, tecnologías como el big data, la computación en la nube y la internet de las cosas (IoT) encuentran sus raíces en los conceptos desarrollados durante la quinta generación. Este periodo marcó el inicio de una era donde las computadoras comenzaron a ser no solo herramientas, sino también colaboradores inteligentes en la vida diaria.
-      </p>
-    </section>
-
-    <section id="aplicaciones" class="max-w-6xl mx-auto p-6 mt-12 mb-20">
-      <h2 class="text-3xl font-bold mb-4 text-indigo-700">Aplicaciones Actuales</h2>
-      <ul class="list-disc pl-8 text-lg leading-relaxed space-y-3">
-        <li>Asistentes virtuales como Siri, Alexa y Google Assistant.</li>
-        <li>Vehículos autónomos que utilizan IA para navegar y tomar decisiones.</li>
-        <li>Diagnóstico médico asistido por inteligencia artificial.</li>
-        <li>Reconocimiento de imágenes y procesamiento de voz.</li>
-        <li>Plataformas de recomendación en comercio electrónico y entretenimiento.</li>
-      </ul>
-    </section>
-  </main>
-
-
-  <footer class="bg-gray-900 text-gray-300">
-    <div class="text-center max-w-7xl mx-auto p-6 flex flex-col md:flex-row justify-between items-center text-center">
-      <p class="text-sm text-center">
-    <center>   Facultad Multidisciplinaria de Occidente UES<br>
-        Departamento de Ingeniería y Arquitectura<br>
-        Ingeniería de Sistemas Informáticos</center> 
-      </p>
-    </div>
-    <div class="text-center text-gray-500 text-xs py-4">
-      &copy; 2025 Quinta Generación. Todos los derechos reservados.
-    </div>
-  </footer>
-
-  <script>
-    ScrollReveal().reveal('section', {
-      distance: '50px',
-      duration: 1200,
-      easing: 'ease-in-out',
-      origin: 'bottom',
-      interval: 200
-    });
-  </script>
-
+<body>
+  <div class="container">
+    <div class="mensaje-superior">Vuelva pronto<br>Sitio en Construcción</div>
+    
+    <!-- Reemplaza "constructor.png" con la imagen real que desees usar -->
+    <img src="https://i.pinimg.com/originals/d6/8f/a2/d68fa2e1992a86f7509c6b74189e481b.png" alt="Constructor trabajando" class="imagen-constructor">
+    
+    <div class="mensaje-inferior">Aquí estará el sitio web<br>de la Quinta Generación</div>
+  </div>
 </body>
 </html>
